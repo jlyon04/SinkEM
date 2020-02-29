@@ -6,13 +6,242 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:rowCount="6"
+        android:columnCount="6"
+        android:id="@+id/gridLayout2"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R000"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R010"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R020"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R030"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R040"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R050"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+
+
+        <TextView
+
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R001"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R011"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R021"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R031"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R041"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R051"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R002"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R012"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R022"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R032"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R042"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R052"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R003"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R013"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R023"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R033"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R043"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R053"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R004"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R014"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R024"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R034"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R044"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R054"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R005"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R015"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R025"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R035"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+        <TextView
+            android:background="@color/colorBoardLight"
+            android:id="@+id/R045"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+        <TextView
+            android:background="@color/colorBoardDark"
+            android:id="@+id/R055"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+
+
+
+    </GridLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
